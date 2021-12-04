@@ -1,5 +1,5 @@
 # MCA
-\[Enter your responses to Week 1, tasks 2 and 3 here\]
+
 <h1> Inidividual Lab Activity week 1 </h1>
 A theme that I have chosen for my datasets is the film score. I will be focusing on examining, analysing and editing pieces of music composed specifically for films. GIven how popular many of the film scores are, data on them is usually easily and freely accessible. Of course it depends on a given movie's popularity, but by choosing appropriate scores I should be able to obtain all three needed types of data. On the example of Hedwig's Theme from the Harry Potter movie series, I was able to obtain:
 1. Musical Score
