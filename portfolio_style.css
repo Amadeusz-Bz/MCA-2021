@@ -80,7 +80,7 @@ body {
         margin-left: auto;
         margin-right: auto;
       }
-script #app {
+.center script #app {
         height: auto;
         width: 100%;
         position: absolute;
