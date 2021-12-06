@@ -1,0 +1,51 @@
+mei-titlestmt > mei-title {
+	display: block;
+    margin-top: 30px;
+    }
+
+mei-titlestmt > mei-composer::before {
+	content: "Composer:";
+	font-family: Arial;
+	font-weight: bold;
+    }  
+
+mei-titlestmt >  mei-respstmt > mei-resp {
+	display:block;
+	margin-bottom:30px;
+	  }
+	  
+mei-pubstmt > mei-publisher::before {
+	content: "Published by:";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+mei-pubstmt > mei-date::before {
+	content: "Date encoded:";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+
+
+mei-encodingdesc {
+	display:none;
+	  }
+	  
+mei-worklist > mei-work > mei-creation > mei-country::before {
+	content: "Country of origin";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+mei-worklist > mei-work > mei-creation > mei-date::before {
+	content: "Date composed:";
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 12px;
+	display:block;
+	  }
+	 
