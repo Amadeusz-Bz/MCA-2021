@@ -78,3 +78,10 @@ body {
         margin-left: auto;
         margin-right: auto;
       }
+.center #app {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        bottom: 0;
+    }
