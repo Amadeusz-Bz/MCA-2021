@@ -1,36 +1,40 @@
 mei-titlestmt > mei-title {
-	display: block;
-    margin-top: 30px;
+   	margin-top: 30px;
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-size: 
+	
     }
 
 mei-titlestmt > mei-composer::before {
 	content: "Composer:";
-	font-family: Arial;
+	font-family: Times New Roman;
 	font-weight: bold;
     }  
 mei-titlestmt > mei-album::before {
 	content: "Album:";
-	font-family: Arial;
+	font-family: Times New Roman;
 	font-weight: bold;
     }  
 
 
 mei-titlestmt >  mei-respstmt > mei-resp {
 	display:block;
-	margin-bottom:30px;
+	font-family: Times New Roman;
+	font-weight:bold;
 	  }
 	  
 mei-pubstmt > mei-publisher::before {
 	content: "Published by:";
 	text-transform: uppercase;
-	font-family: Arial Black;
+	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
 	  }
 mei-pubstmt > mei-date::before {
 	content: "Date encoded:";
 	text-transform: uppercase;
-	font-family: Arial Black;
+	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
 	  }
@@ -43,14 +47,14 @@ mei-encodingdesc {
 mei-worklist > mei-work > mei-creation > mei-country::before {
 	content: "Country of origin";
 	text-transform: uppercase;
-	font-family: Arial Black;
+	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
 	  }
 mei-worklist > mei-work > mei-creation > mei-date::before {
 	content: "Date composed:";
 	text-transform: uppercase;
-	font-family: Arial Black;
+	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
 	  }
