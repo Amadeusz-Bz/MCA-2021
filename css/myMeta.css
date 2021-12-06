@@ -23,7 +23,7 @@ mei-titlestmt > mei-composer::before {
 	font-family: Times New Roman;
 	font-weight: bold;
 	display: block;
-	font-size: 30px;
+	font-size: 25px;
     }  
 
 mei-titlestmt > mei-album {
@@ -39,7 +39,7 @@ mei-titlestmt > mei-album::before {
 	font-family: Times New Roman;
 	font-weight: bold;
 	display: block;
-	font-size: 30px;
+	font-size: 25px;
     }  
 
 
@@ -49,7 +49,7 @@ mei-titlestmt >  mei-respstmt > mei-resp {
 	font-weight:bold;
 	font-style: italic;
 	margin-bottom: 15px;
-	font-size: 30px;
+	font-size: 25px;
 	  }
 	  
 
@@ -67,7 +67,7 @@ mei-pubstmt > mei-publisher::before {
 	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
-	font-size: 30px;
+	font-size: 35px;
 	  }
 mei-pubstmt > mei-date {
 	font-family: Times New Roman;
@@ -84,7 +84,7 @@ mei-pubstmt > mei-date::before {
 	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
-	font-size: 30px;
+	font-size: 25px;
 	  }
 
 
@@ -106,7 +106,7 @@ mei-worklist > mei-work > mei-creation > mei-country::before {
 	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
-	font-size: 30px;
+	font-size: 25px;
 	  }
 
 mei-worklist > mei-work > mei-creation > mei-date {
@@ -123,6 +123,6 @@ mei-worklist > mei-work > mei-creation > mei-date::before {
 	font-family: Times New Roman;
 	font-size: 12px;
 	display:block;
-	font-size: 30px;
+	font-size: 25px;
 	  }
 	 
