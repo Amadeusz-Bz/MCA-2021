@@ -164,6 +164,7 @@ mei-worklist > mei-work > mei-creation > mei-date::before {
                 border-style: double;
                 border-width: 10px;
                 border-radius: 8px
+		padding: 10px;
 }
 
  h1 {
