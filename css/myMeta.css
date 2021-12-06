@@ -47,6 +47,7 @@ mei-titlestmt >  mei-respstmt > mei-resp {
 	display:block;
 	font-family: Times New Roman;
 	font-weight:bold;
+	font-style: italic;
 	margin-bottom: 15px;
 	font-size: 30px;
 	  }
