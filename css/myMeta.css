@@ -2,7 +2,7 @@ mei-titlestmt > mei-title {
    	margin-top: 30px;
 	font-family: Times New Roman;
 	font-weight: bold;
-	font-size: 
+	display: block;
 	
     }
 
@@ -10,11 +10,13 @@ mei-titlestmt > mei-composer::before {
 	content: "Composer:";
 	font-family: Times New Roman;
 	font-weight: bold;
+	display: block;
     }  
 mei-titlestmt > mei-album::before {
 	content: "Album:";
 	font-family: Times New Roman;
 	font-weight: bold;
+	display: block;
     }  
 
 
