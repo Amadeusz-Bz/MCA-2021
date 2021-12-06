@@ -7,6 +7,36 @@
         background-color: rgb(41, 45, 66);
         font-family: 'Times New Roman', serif;
       }
+      
+      .navbar ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 25%;
+          background-color: #f1f1f1;
+          position: fixed;
+          height: 100%;
+          overflow: auto;
+        }
+      
+         .navbar li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+
+        .navbar li a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+
+        .navbar li a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+
+
       .center {
                 margin: auto;
                 width: 60%;
@@ -57,6 +87,15 @@
     </style>
   </head>
   <body>
+    
+    <div class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
     <div class="center">
       <h1>Task 4: Computational analytics of notated music</h1>
       <p> During week 4 I have worked in Jupyter Notebook to analyse "Hedwig's Theme" by John Williams. Firstly I have analysed the piece in jSymbolic notebook, and have produced
