@@ -154,10 +154,16 @@ mei-worklist > mei-work > mei-creation > mei-date::before {
           background-color: #555;
           color: white;
         }
-
+	body {
+		background-color: rgb(41, 45, 66);
+		}
 	.center {
 		margin-left: 12%;
 		width:85%;
+		background-color: rgb(245, 246, 255);
+                border-style: double;
+                border-width: 10px;
+                border-radius: 8px
 }
 
  h1 {
