@@ -90,3 +90,16 @@ body {
 .center ul {
          font-size: 25px;
 }
+
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th {
+  background-color: rgb(132, 6, 178);
+       color: white;
+}
+td{
+        background-color:rgb(204, 204, 204);
+}
